@@ -74,7 +74,7 @@ public class TopicosController {
 	}
 	
 	@PutMapping("/{id}")
-	@Transactional
+	@Transactional //garante que o banco de dados seja atualizado
 	public ResponseEntity<TopicoDto> atualizar(@PathVariable Long id, @RequestBody @Valid AtualizacaoTopicoForm form, UriComponentsBuilder uriBuilder){
 		Topico topico = form.atualizar(id, topicoRepository);
 		
