@@ -1,9 +1,0 @@
-#keycloak.auth-server-url=https://smartdoczdev-keycloak.fourcicle.com/auth/
-#keycloak.realm=SmartDocz
-#keycloak.resource=smart-docz-web
-#keycloak.public-client=true
-
-
-
-keycloak.security-constraints[0].authRoles[0]=user
-keycloak.security-constraints[0].securityCollections[0].patterns[0]=/*
