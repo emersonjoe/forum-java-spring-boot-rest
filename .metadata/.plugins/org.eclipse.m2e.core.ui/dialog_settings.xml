@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\projetos\alura\sprint-boot\forum-java-spring-boot-rest"/>
+			<item value="C:\projetos\alura\sprint-boot\forum-java-spring-boot-rest\forum"/>
 			<item value="C:\projetos\alura\sprint-boot\"/>
 			<item value="C:\projetos\alura\sprint-boot\apagar\forum"/>
 		</list>
