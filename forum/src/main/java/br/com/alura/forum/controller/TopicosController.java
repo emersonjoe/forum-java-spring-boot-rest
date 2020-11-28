@@ -24,6 +24,8 @@ import br.com.alura.forum.repository.TopicoRepository;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 
 @RestController
 @RequestMapping(value="/topicos")	
@@ -49,7 +51,7 @@ public class TopicosController {
 	}
 	
 	@PostMapping
-	public ResponseEntity<TopicoDto> cadastrar(@RequestBody TopicoForm form, UriComponentsBuilder uriBuilder) {
+	public ResponseEntity<TopicoDto> cadastrar(@RequestBody @Valid TopicoForm form, UriComponentsBuilder uriBuilder) {
 		
 		Topico topico = form.converter(cursoRepository);
 		topicoRepository.save(topico);
