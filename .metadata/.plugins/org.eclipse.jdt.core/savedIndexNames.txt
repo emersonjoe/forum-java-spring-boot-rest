@@ -5,6 +5,7 @@ INDEX VERSION 1.131+C:\projetos\alura\java\spring-boot\forum-java-spring-boot-re
 551501951.index
 586252034.index
 1574843208.index
+446180894.index
 2583773265.index
 2841192846.index
 3490308897.index
@@ -52,9 +53,9 @@ INDEX VERSION 1.131+C:\projetos\alura\java\spring-boot\forum-java-spring-boot-re
 2426484970.index
 104906742.index
 595412264.index
+2286815212.index
 3902471731.index
 2232716463.index
-2286815212.index
 4064412529.index
 1521623238.index
 3592432653.index
